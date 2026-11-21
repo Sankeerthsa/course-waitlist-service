@@ -1,0 +1,13 @@
+package com.assessment.waitlist;
+
+public enum OperationStatus {
+    ENROLLED,
+    WAITLISTED,
+    ALREADY_ENROLLED,
+    ALREADY_WAITLISTED,
+    INELIGIBLE_PREREQUISITE,
+    DROPPED_FROM_ENROLLED,
+    DROPPED_FROM_WAITLIST,
+    NOT_ENROLLED_OR_WAITLISTED,
+    COURSE_NOT_FOUND
+}
